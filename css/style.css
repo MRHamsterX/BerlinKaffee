@@ -1,0 +1,94 @@
+body{margin: 0; padding: 0;}
+.menu {
+    display: grid;
+    -ms-grid-rows: 20% 70% 10%;
+    grid-template-rows: 20% 70% 10%;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.social{
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-self: center;
+    /*grid-auto-rows: 100px;*/
+    /*width: 100%;
+    height: 100%;*/
+}
+#networks{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#inform{
+    /*margin-top: 50%;*/
+    width: 100%;
+    height: 100%;
+    z-index: 10;}
+#logo {
+    width: auto;
+    height: auto;
+    display: block; 
+    margin: auto;
+    /*position: absolute;
+    left: 37vw;
+    top: 20px;
+    height: auto;
+    display: block;*/
+    border: none;
+}
+#replay{
+    width: 200px;
+    height: 200px;
+    background: url(../images/repeat.png) top left no-repeat;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    margin-top: 10%;
+    margin-right: 10%;
+    /*margin: 30 auto;*/
+    border: none;
+    /*outline:0;*/
+}
+#fon{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+    background-image: url(../images/fon3.png);
+    /*background-position: 100% 100%;*/
+    background-size: cover;
+}
+#bg{
+    margin: 0;
+    display: block;
+    /*background-color: rgba(0, 0, 0, 0.7);0.85 ideal'no*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-image: url(../images/pattern.png);
+    }
+.bgvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#video{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
