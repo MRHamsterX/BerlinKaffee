@@ -1,3 +1,14 @@
+@font-face {
+    font-family: BerlinBold; /* Имя шрифта */
+    src: url(fonts/BerlinBold.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Berlin; /* Имя шрифта */
+    src: url(fonts/Berlin.ttf); /* Путь к файлу со шрифтом */
+   }
+   /*P {
+    font-family: Pompadur;
+   }*/
 body {margin: 0; padding: 0;}
 .menu {
     z-index: 4;
@@ -5,7 +16,26 @@ body {margin: 0; padding: 0;}
     height: 100%;
     position: absolute;
 }
-.mainMenu {height: 80%;}
+.mainMenu {
+    margin-left: 5%;
+    height: 80%;
+    color: white;
+}
+#title {
+    /*BerlinBold*/
+    font-family: 'Segoe UI';
+    font-size: 560%;
+    /* отступ от верхнего, правого, нижнего и левого края.*/
+    margin: 2% 0 0 0;
+}
+#text {
+    padding-left: 2%;
+    /*Berlin*/
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    margin-top: 0;
+    width: 40%;
+}
 .social {
     position: absolute;
     display: block;
@@ -25,12 +55,17 @@ body {margin: 0; padding: 0;}
     height: 100%;
     z-index: 10;
 }
-#logo {
-    width: auto;
+.header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
     height: auto;
+}
+#logo {
+    width: 352px;
+    height: 90px;
     display: block; 
     margin: 10px auto;
-    
     /*position: absolute;
     left: 37vw;
     top: 20px;
@@ -38,14 +73,14 @@ body {margin: 0; padding: 0;}
     display: block;*/
 }
 #replay {
-    width: 200px;
-    height: 200px;
-    background: url(../images/repeat.png) top left no-repeat;
-    z-index: 10;
     position: absolute;
+    width: 50px;
+    height: 50px;
+    background: url(../images/repeat.svg) top left no-repeat;
+    z-index: 10;
+    top: 0;
     right: 0;
-    margin-top: 10%;
-    margin-right: 10%;
+    margin: 10px 10px 0 0;
     /*margin: 30 auto;*/
     border: none;
     /*outline:0;*/
