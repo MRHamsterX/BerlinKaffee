@@ -24,7 +24,7 @@ body {margin: 0; padding: 0;}
 #title {
     /*BerlinBold*/
     font-family: 'Segoe UI';
-    font-size: 560%;
+    font-size: 500%;
     /* отступ от верхнего, правого, нижнего и левого края.*/
     margin: 2% 0 0 0;
 }
@@ -50,7 +50,7 @@ body {margin: 0; padding: 0;}
 }
 #welcome {
     font-family: 'Segoe UI';
-    font-size: 560%;
+    font-size: 500%;
     /* отступ от верхнего, правого, нижнего и левого края.*/
     padding-left: 2%;
     margin: 0;
