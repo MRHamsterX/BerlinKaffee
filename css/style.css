@@ -36,6 +36,35 @@ body {margin: 0; padding: 0;}
     margin-top: 0;
     width: 40%;
 }
+#about{
+    background: url(../images/pattern.png);
+    /*border: 3px solid white;*/
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 0;
+    right: 0;
+    margin-right: 5%;
+    margin-top: 9%;
+    /*Berlin*/
+}
+#welcome {
+    font-family: 'Segoe UI';
+    font-size: 560%;
+    /* отступ от верхнего, правого, нижнего и левого края.*/
+    padding-left: 2%;
+    margin: 0;
+}
+#address {
+    text-align: center;
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 120%;
+    padding: 0 5% 30px 5%;
+}
+b{
+    font-size: 150%;
+}
 .social {
     position: absolute;
     display: block;
@@ -85,6 +114,10 @@ body {margin: 0; padding: 0;}
     border: none;
     /*outline:0;*/
 }
+#replay:hover {
+    cursor: pointer;
+ }
+
 #fon {
     background-repeat: no-repeat;
     position: absolute;
@@ -99,12 +132,13 @@ body {margin: 0; padding: 0;}
 #bg {
     margin: 0;
     display: block;
-    /*background-color: rgba(0, 0, 0, 0.7);0.85 ideal'no*/
+    background-color: rgba(0, 0, 0, 0.6);
+    /*0.85 ideal'no*/
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 3;
-    background-image: url(../images/pattern.png);
+    /*background-image: url(../images/pattern.png);*/
 }
 .bgvideo {
     position: absolute;
